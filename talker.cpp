@@ -162,19 +162,7 @@ point a;
 a.x=x2;
 a.y=y2;
  
-/*while(1)
-{
-a=q[a.x][a.y];
 
-result.at<Vec3b>(a.x,a.y)[0]=255;
-result.at<Vec3b>(a.x,a.y)[1]=255;
-result.at<Vec3b>(a.x,a.y)[2]=255;
-if(a.x==x1&&a.y==y1)break;
-}
-imshow("Original image",result);
-waitKey(0);
-return 0;
-}*/
 
 ros::init(argc, argv, "talker");
 ros::NodeHandle n;
