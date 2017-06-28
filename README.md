@@ -1,3 +1,2 @@
-# agv_task
-CODE FOR AGV TASK 1 
-Simple implementation of BFS to find a short path between start and end points.
+# PathFinder
+Given an image with obstacles , finds optimal path between start and destination. Uses ROS platform
